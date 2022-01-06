@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" id="btn1"  href="css/style.css">
+
+    <script>
+        $(document).ready(function(){
+            $('#selected').change(function(){
+                var value =$(this).val();
+                if(value=='1'){
+                    document.getElementById("btn1").href="css/style.css";
+                }
+                else if(value=='2'){
+                    document.getElementById("btn1").href="css/style_blue.css";
+                }
+                else {
+                    document.getElementById("btn1").href="css/style_red.css";
+                }
+
+            })
+        })
+
+
+
+    </script>
+</head>
+
+<body>
+<form>
+
+
+            <select id="selected">
+                <option value="1">原来</option>
+                <option value="2">天蓝</option>
+                <option value="3">红色</option>
+            </select>
+
+
+
+</form>
+</body>
+</html>
