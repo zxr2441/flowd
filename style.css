@@ -435,7 +435,7 @@ body{background: #f8f8f8;}
     margin: 0 auto;
 }
 .ketwo_yi{
-    width: 30%;
+    width: 385px;
     height: 300px;
     background:#ffffff;
     border-radius: 6px;
@@ -450,9 +450,10 @@ body{background: #f8f8f8;}
 }
 .ketwo_con{
     display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
     flex-wrap: wrap;
-    justify-content:space-between;
-    text-align: justify;
 }
 /*.ketwo_con:after{*/
 /*    content: '';*/
