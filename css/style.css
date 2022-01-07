@@ -433,6 +433,9 @@ body{background: #f8f8f8;}
 .ketwo{
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
 }
 .ketwo_yi{
     width: 385px;
@@ -448,16 +451,7 @@ body{background: #f8f8f8;}
     border-top:4px solid #e48012;
     box-shadow: 0 0 20px #bababa;
 }
-.ketwo_con{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    text-align: justify;
-}
-.ketwo_con:after{
-    content: '';
-    width: 385px;
-}
+
 .ketwo_yip{
     font-size: 18px;
     color: #000000;
