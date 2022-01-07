@@ -383,6 +383,7 @@ body{background: #f8f8f8;}
 }
 .keone{
     width: 1200px;
+    min-width: 1200px;
     height: 60px;
     margin: 0 auto;
     display: flex;
@@ -449,6 +450,8 @@ body{background: #f8f8f8;}
     box-shadow: 0 0 20px #bababa;
 }
 .ketwo_con{
+    width: 1200px;
+    min-width: 1200px;
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
