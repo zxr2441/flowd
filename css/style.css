@@ -46,6 +46,12 @@ body{background: #f8f8f8;}
     color: #252525;
     cursor: pointer;
 }
+.ylong_oneli:hover{
+    color: #1268a3;
+}
+.ylong_oneli a:hover{
+    color: #1268a3;
+}
 
 .swiper {
     width: 100%;
