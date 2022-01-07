@@ -29,6 +29,8 @@ body{background: #f8f8f8;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
 }
 .ylong_oneimg{
     width: 259px;
@@ -659,6 +661,7 @@ body{background: #f8f8f8;}
     margin: 70px auto;
     display: flex;
     justify-content: space-between;
+    padding: 0 20px 0 20px;box-sizing: border-box;
 }
 .guan_yi{
     width: 690px;
@@ -689,9 +692,10 @@ body{background: #f8f8f8;}
 }
 .guan_con{
     width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top:70px 20px 70px 20px;
+    box-sizing: border-box;
 }
 .guan_yih2{
     font-size: 20px;
