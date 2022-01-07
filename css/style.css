@@ -25,15 +25,14 @@ body{background: #f8f8f8;}
     width: 1200px;
     height: 85px;
     margin:0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 .ylong_oneimg{
     width: 259px;
     height: 33px;
     display: block;
     object-fit: cover;
+    float: left;
 }
 .ylong_oneli{
     float: left;
